@@ -10,10 +10,10 @@ JS.HW_1 Півторак Юрій Олександровч
        let item_1 = 5
 
  3. Вывести в консоль item_1.
-    Знову ж таки ситуація спірна, не зазначенощо саме вивести, змінну чи її значення!
+    Знову ж таки ситуація спірна, не зазначено що саме вивести, змінну чи її значення!
     Якщо змінну, то:
        console.log("Item_1 =", item_1),
-    Якщо текст, то:
+    Якщо текст,"item_1" то:
        console.log("Item_1")
 
  4. Создать переменную “item_2”
@@ -44,13 +44,11 @@ JS.HW_1 Півторак Юрій Олександровч
        console.log(item_4)
 
  13. Вывести в консоль сложение item_3 и item_4.
-       console.log(item_3 + " " + item_4)
+       console.log(item_3 + item_4)
 
  14. Вывести в консоль умножение item_3 и item_4.
-       варіант 1: console.log(item_3 + " * " + item_4 )
-       варіант 2: let total_item34 = item_3 + " * " + item_4 
-                  console.log(total_item34)
-
+        console.log(item_3 * item_4)
+     
  15. Создать переменную “item_5”
        let item_5
 
@@ -64,10 +62,10 @@ JS.HW_1 Півторак Юрій Олександровч
        let item_6_type
 
  19. Присвоить переменной item_6 значение 15
-       let item_6 = 15
+       item_6 = 15
 
  20. Присвоить переменной item_6_type тип переменной item_6
-       let item_6_type = typeof(item_6)
+       item_6_type = typeof(item_6)
        // для виведення результату:
        console.log("item_6_type", item_6_type)
        Terminal:
